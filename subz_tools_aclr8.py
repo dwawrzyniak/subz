@@ -93,6 +93,3 @@ def save_ion():
     return (path, True)
   else:
     return (view.file_name(), False)
-
-def ion_is_saved(view):
-  return not view.is_dirty() and view.file_name().endswith(".ion")
